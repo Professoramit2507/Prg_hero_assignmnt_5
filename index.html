@@ -12,6 +12,9 @@
      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
+
+
 <body class="bg-[#f5fff6]">
 
   <!-- navbar -->
@@ -272,22 +275,22 @@
   </div>
 
   <!-- Right Side Call History -->
-  <div class="w-[450px] lg:w-[300px]  p-4 mx-4 lg:mx-0">
-    <div class="flex justify-between items-center">
-      <h3 class="font-bold flex items-center gap-2">
-        <i class="fa-solid fa-clock-rotate-left"></i> Call History
-      </h3>
-      <button id="clear-history" class="font-bold bg-[#00A63E] px-4 py-2 text-white cursor-pointer rounded-2xl hover:bg-gray-200 hover:text-black">
-        Clear
-      </button>
-    </div>
-
-
-            <div id="call-history-list" class="mt-6 ">
-                   
-            </div>
-
+ <div class="w-[350px] lg:w-[400px] p-4 mx-4 lg:mx-0">
+  <div class="flex flex-wrap justify-between items-center">
+    <h3 class="font-bold flex items-center gap-2">
+      <i class="fa-solid fa-clock-rotate-left"></i> Call History
+    </h3>
+    <button id="clear-history" 
+      class="font-bold bg-[#00A63E] px-4 py-2 text-white cursor-pointer rounded-2xl hover:bg-gray-200 hover:text-black">
+      Clear
+    </button>
   </div>
+
+  <div id="call-history-list" class="">
+   
+  </div>
+</div>
+
 
 </section>
 
