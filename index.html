@@ -14,17 +14,43 @@
 </head>
 <body class="bg-[#f5fff6]">
 
+  <!-- navbar -->
+    <header>
+        <nav class="flex flex-col md:flex-row justify-between items-center p-4 bg-white shadow">
 
+    <div class="flex items-center gap-2 md:ml-[60px] mt-2 md:mt-[25px]">
+        <img class="w-[40px] h-[40px] md:w-[50px] md:h-[50px]" src="./assets/logo-dark.png" alt="">
+        <h2 class="text-[#006747] font-bold text-[14px] md:text-[16px]">
+            Emergency <br> Service
+        </h2>
+    </div>
+
+    <div class="flex flex-wrap justify-center md:justify-end md:mr-[60px] gap-4 md:gap-8 mt-4 md:mt-2">
+        <div class="flex items-center gap-2 bg-[#41ff6b1a] rounded-3xl px-4 py-2">
+            <h3 id="heartCount" class="font-bold text-[14px] md:text-[16px]">0</h3>
+            <img class="w-[24px] h-[24px] md:w-[30px] md:h-[30px]" src="./assets/heart.png" alt="">
+        </div>
+        
+
+        <div class="flex items-center gap-2 bg-[#41ff6b1a] rounded-3xl px-4 py-2">
+            <h3 id="total-coin" class="font-bold text-[14px] md:text-[16px]">100</h3>
+            <img class="w-[24px] h-[24px] md:w-[30px] md:h-[30px]" src="./assets/coin.png" alt="">
+        </div>
+      
+        <div>
+            <button id="navbar-copy-btn" class="text-white  font-bold text-[14px] md:text-[16px] rounded-3xl px-4 py-2 bg-[#00A63E]">
+                <span id="copy-count">0</span> Copy
+            </button>
+        </div>
+    </div>
+        </nav>
+
+    </header>
 
 
     <main class=" bg-gradient-to-r from-[#013122] via-[#006747] to-[#013122] w[1920px] h-[239px]">
 
-      <!-- Banner -->
-        <div class="text-center">
-            <img  class="w-[92px] h-[92px] block mx-auto text-[#FFFFFF]"  src="./assets/logo-dark.png" alt="">
-            <h1 class="font-bold text-[40px] text-white mt-[11px]">Emergency Service Directory</h1>
-            <p class="text-white mt-[11px]">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
-        </div>
+      
 
             
         <section class="flex flex-col lg:flex-row gap-6 mt-[50px]">
